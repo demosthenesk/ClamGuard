@@ -20,7 +20,7 @@ You can run it on Windows, Linux and Mac computers.
 
 ### Windows
 
-- Download the clamav for windows.
+- Download the clamav for windows. [ClamavNet](https://www.clamav.net/downloads)
 
 - Configure clamav for windows according clamav instructions.
 
