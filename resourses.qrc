@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="clamguard">
+    <file>images/exit32.png</file>
+    <file>images/close32.png</file>
+    <file>images/log32.png</file>
+    <file>images/scan32.png</file>
+    <file>images/update32.png</file>
+    <file>images/Gerald-G-Clam-Security-Guard-ico32x32.png</file>
+    <file>images/delete_virus32.png</file>
+    <file>images/quarantine_virus32.png</file>
+  </qresource>
+</RCC>
