@@ -26,7 +26,7 @@ You can run it on Windows, Linux and Mac computers.
 
 - Put the clamscan and freshclam paths to PATH enviroment variable in Windows.
 
-- Download [Which for Windows](http://gnuwin32.sourceforge.net/packages/which.htm) and installe it.
+- Download [Which for Windows](http://gnuwin32.sourceforge.net/packages/which.htm) and install it.
 
 - Put the which path to PATH enviroment variable in Windows.
 
@@ -49,17 +49,5 @@ To run the application run the ClamGuard.py script
 ```bash
 python3.9 ClamGuard.py
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 
