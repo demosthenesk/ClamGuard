@@ -44,10 +44,12 @@ You can run it on Windows, Linux and Mac computers.
 
 - Install PyQt5. pip install PyQt5
 
+- Add the following to /etc/sudoers
+  
+  ALL ALL=NOPASSWD: /usr/bin/freshclam
+
 To run the application run the ClamGuard.py script
 
 ```bash
 python3.9 ClamGuard.py
 ```
-
-
