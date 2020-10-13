@@ -223,7 +223,8 @@ class UpdateWindow(QDialog):
             self.proc.start(self.freshclam)
         else:
             self.ui.txtUpdate.append("System is posix...")
-            self.proc.start("sudo " + self.freshclam)
+            # self.proc.start("sudo " + self.freshclam)
+            self.proc.start("pkexec " + self.freshclam)
 
         self.ui.txtUpdate.append("Get fresh signatures...")
 
