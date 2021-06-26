@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>402</width>
+    <width>520</width>
     <height>383</height>
    </rect>
   </property>
@@ -18,13 +18,13 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>402</width>
+    <width>520</width>
     <height>383</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>402</width>
+    <width>520</width>
     <height>383</height>
    </size>
   </property>
@@ -32,7 +32,7 @@
    <string>pyClamAV-GUI</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="resourses.qrc">
+   <iconset>
     <normaloff>:/clamguard/Gerald-G-Clam-Security-Guard-ico32x32.png</normaloff>:/clamguard/Gerald-G-Clam-Security-Guard-ico32x32.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
@@ -41,7 +41,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>381</width>
+      <width>501</width>
       <height>321</height>
      </rect>
     </property>
@@ -51,7 +51,7 @@
      <rect>
       <x>10</x>
       <y>340</y>
-      <width>87</width>
+      <width>101</width>
       <height>29</height>
      </rect>
     </property>
@@ -62,9 +62,9 @@
    <widget class="QPushButton" name="btnUpdate">
     <property name="geometry">
      <rect>
-      <x>100</x>
+      <x>120</x>
       <y>340</y>
-      <width>87</width>
+      <width>111</width>
       <height>29</height>
      </rect>
     </property>
@@ -75,9 +75,9 @@
    <widget class="QPushButton" name="btnViewLogs">
     <property name="geometry">
      <rect>
-      <x>190</x>
+      <x>240</x>
       <y>340</y>
-      <width>87</width>
+      <width>111</width>
       <height>29</height>
      </rect>
     </property>
@@ -88,9 +88,9 @@
    <widget class="QPushButton" name="btnViewQuarantine">
     <property name="geometry">
      <rect>
-      <x>280</x>
+      <x>360</x>
       <y>340</y>
-      <width>111</width>
+      <width>151</width>
       <height>29</height>
      </rect>
     </property>

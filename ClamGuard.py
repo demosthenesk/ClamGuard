@@ -336,10 +336,10 @@ class ScanWindow(QDialog):
 
         # Test if is dir or file
         if os.path.isdir(self.scanPath):
-            cmd = [self.clamscan, "-i", "-l", name, "-r", self.scanPath]
+            cmd = [self.clamscan, "-i", "-v", "-l", name, "-r", self.scanPath]
             return cmd
         elif os.path.isfile(self.scanPath):
-            cmd = [self.clamscan, "-i", "-l", name, self.scanPath]
+            cmd = [self.clamscan, "-i", "-v", "-l", name, self.scanPath]
             return cmd
         else:
             return []
