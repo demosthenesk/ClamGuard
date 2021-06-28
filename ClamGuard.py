@@ -479,7 +479,9 @@ class MainWindow(QMainWindow):
         self.ui.trvSystem.setModel(self.ui.trvSystem.model)
         self.ui.trvSystem.setAnimated(False)
         self.ui.trvSystem.setIndentation(20)
+        self.ui.trvSystem.sortByColumn(0, 0)
         self.ui.trvSystem.setSortingEnabled(True)
+        self.ui.trvSystem.setColumnWidth(0, 200)
 
     def showQuarantine(self):
         self.frmQuarantine.show()
